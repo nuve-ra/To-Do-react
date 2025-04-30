@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+//import { useFrameworkReady } from '@/hooks/useFrameworkReady';
+
 
 declare global {
   interface Window {

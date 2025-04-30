@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, useColorScheme, Image, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { theme } from '@/constants/theme';
-import { Task } from '@/types';
-import { getTasks } from '@/utils/storage';
-import TaskItem from '@/components/TaskItem';
-import { ChevronRight } from 'lucide-react-native';
+import { theme } from '../../constants/theme';
+import { Task } from '../../types';
+import { getTasks } from '../../utils/storage';
+import TaskItem from '../../components/TaskItem';
+import { ChevronRight, ThermometerSnowflake } from 'lucide-react-native';
 import { router } from 'expo-router';
 import Animated, { FadeInUp, FadeInDown } from 'react-native-reanimated';
 

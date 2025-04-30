@@ -2,3 +2,20 @@
   "compilerOptions": {},
   "extends": "expo/tsconfig.base"
 }
+// {
+//   "extends": "expo/tsconfig.base",
+//   "compilerOptions": {
+//     "strict": true,  // Enables strict type-checking options for better code quality
+//     "baseUrl": ".",  // Base directory for relative paths
+//     "paths": {
+//       "@/*": ["app/*"]  // Resolve @ to app folder
+//     }
+//   },
+//   "include": [
+//     "**/*.ts",
+//     "**/*.tsx",
+//     ".expo/types/**/*.ts",
+//     "expo-env.d.ts",
+//     "nativewind-env.d.ts"
+//   ]
+// }
